@@ -1,0 +1,47 @@
+#home {
+  height: 550px;
+  background-color: #cee7eb;
+}
+
+.home-title-pad {
+  padding-top: 20px;
+}
+
+.home-title img {
+  position: relative;
+  z-index: 1;
+  left: 18%;
+  height: 400px;
+}
+
+#home p {
+  position: relative;
+  z-index: 2;
+  left: 43%;
+  width: 50%;
+  margin-top: -68px;
+  text-align: center;
+  letter-spacing: 10px;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 768px) {
+  #home {
+    height: 250px;
+  }
+  .home-title img {
+    left: 5%;
+    height: 160px;
+  }
+  #home p {
+    margin-top: -25px;
+    font-size: 15px;
+  }
+  .home-img {
+    height: 400px;
+    background-image: url("../img/home-img.jpeg");
+    background-position: center;
+    background-size: cover;
+  }
+}
